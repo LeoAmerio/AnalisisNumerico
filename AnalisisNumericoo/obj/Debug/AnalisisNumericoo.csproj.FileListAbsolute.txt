@@ -1,0 +1,10 @@
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\bin\Debug\AnalisisNumericoo.exe.config
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\bin\Debug\AnalisisNumericoo.exe
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\bin\Debug\AnalisisNumericoo.pdb
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.AssemblyReference.cache
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.Properties.Resources.resources
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.GenerateResource.cache
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.exe
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.pdb
