@@ -8,3 +8,6 @@ C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\Ana
 C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.exe
 C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.pdb
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\bin\Debug\Calculus.dll
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.Form1.resources
+C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.CopyComplete
