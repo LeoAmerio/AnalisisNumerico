@@ -20,7 +20,7 @@ namespace AnalisisNumericoo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            throw new System.NotImplementedException();
+            tabControl1.Show();
         }
 
         private void Biseccion(object sender, EventArgs e)
@@ -86,7 +86,10 @@ namespace AnalisisNumericoo
                 }
             }
         }
-        
-        
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

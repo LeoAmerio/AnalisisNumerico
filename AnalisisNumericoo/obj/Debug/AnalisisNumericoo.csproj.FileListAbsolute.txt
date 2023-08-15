@@ -11,3 +11,15 @@ C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\Ana
 C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\bin\Debug\Calculus.dll
 C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.Form1.resources
 C:\Users\Usuario\RiderProjects\AnalisisNumericoo\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.CopyComplete
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\bin\Debug\AnalisisNumericoo.exe.config
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\bin\Debug\AnalisisNumericoo.exe
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\bin\Debug\AnalisisNumericoo.pdb
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.AssemblyReference.cache
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.SuggestedBindingRedirects.cache
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.Form1.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.Properties.Resources.resources
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.GenerateResource.cache
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.CoreCompileInputs.cache
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.csproj.CopyComplete
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.exe
+C:\Users\valen\OneDrive\Documentos\GitHub\AnalisisNumerico\AnalisisNumericoo\obj\Debug\AnalisisNumericoo.pdb
