@@ -30,191 +30,367 @@
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.unidad1 = new System.Windows.Forms.TabPage();
-            this.unidad2 = new System.Windows.Forms.TabPage();
-            this.unidad3 = new System.Windows.Forms.TabPage();
-            this.unidad4 = new System.Windows.Forms.TabPage();
-            this.warningLabel = new System.Windows.Forms.Label();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.secanteBtn = new System.Windows.Forms.Button();
+            this.newtonBtn = new System.Windows.Forms.Button();
+            this.reglafalsaBtn = new System.Windows.Forms.Button();
             this.biseccionBtn = new System.Windows.Forms.Button();
-            this.iterationLabel = new System.Windows.Forms.Label();
-            this.toleranceLabel = new System.Windows.Forms.Label();
-            this.xdLabel = new System.Windows.Forms.Label();
-            this.xiLabel = new System.Windows.Forms.Label();
-            this.functionLabel = new System.Windows.Forms.Label();
-            this.iterationValue = new System.Windows.Forms.TextBox();
-            this.toleranceValue = new System.Windows.Forms.TextBox();
+            this.warningLabel = new System.Windows.Forms.Label();
+            this.raizResult = new System.Windows.Forms.Label();
+            this.raizLabel = new System.Windows.Forms.Label();
+            this.errorResult = new System.Windows.Forms.Label();
+            this.errorLabel = new System.Windows.Forms.Label();
+            this.iterResult = new System.Windows.Forms.Label();
+            this.iterLabel = new System.Windows.Forms.Label();
+            this.convergeResult = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Resultados = new System.Windows.Forms.Label();
+            this.iterValue = new System.Windows.Forms.TextBox();
+            this.iter = new System.Windows.Forms.Label();
+            this.toleValue = new System.Windows.Forms.TextBox();
+            this.tolerancia = new System.Windows.Forms.Label();
             this.xdValue = new System.Windows.Forms.TextBox();
+            this.xdLabel = new System.Windows.Forms.Label();
             this.xiValue = new System.Windows.Forms.TextBox();
+            this.Xi = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.functionInput = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
-            this.unidad1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+
             this.SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.unidad1);
-            this.tabControl1.Controls.Add(this.unidad2);
-            this.tabControl1.Controls.Add(this.unidad3);
-            this.tabControl1.Controls.Add(this.unidad4);
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1040, 503);
             this.tabControl1.TabIndex = 12;
             // 
-            // unidad1
+            // tabPage1
             // 
-            this.unidad1.Controls.Add(this.warningLabel);
-            this.unidad1.Controls.Add(this.biseccionBtn);
-            this.unidad1.Controls.Add(this.iterationLabel);
-            this.unidad1.Controls.Add(this.toleranceLabel);
-            this.unidad1.Controls.Add(this.xdLabel);
-            this.unidad1.Controls.Add(this.xiLabel);
-            this.unidad1.Controls.Add(this.functionLabel);
-            this.unidad1.Controls.Add(this.iterationValue);
-            this.unidad1.Controls.Add(this.toleranceValue);
-            this.unidad1.Controls.Add(this.xdValue);
-            this.unidad1.Controls.Add(this.xiValue);
-            this.unidad1.Controls.Add(this.functionInput);
-            this.unidad1.Location = new System.Drawing.Point(4, 25);
-            this.unidad1.Name = "unidad1";
-            this.unidad1.Padding = new System.Windows.Forms.Padding(3);
-            this.unidad1.Size = new System.Drawing.Size(1032, 474);
-            this.unidad1.TabIndex = 0;
-            this.unidad1.Text = "Unidad_1";
-            this.unidad1.UseVisualStyleBackColor = true;
-            this.unidad1.Click += new System.EventHandler(this.tabPage1_Click);
+            this.tabPage1.Controls.Add(this.label14);
+            this.tabPage1.Controls.Add(this.label13);
+            this.tabPage1.Controls.Add(this.secanteBtn);
+            this.tabPage1.Controls.Add(this.newtonBtn);
+            this.tabPage1.Controls.Add(this.reglafalsaBtn);
+            this.tabPage1.Controls.Add(this.biseccionBtn);
+            this.tabPage1.Controls.Add(this.warningLabel);
+            this.tabPage1.Controls.Add(this.raizResult);
+            this.tabPage1.Controls.Add(this.raizLabel);
+            this.tabPage1.Controls.Add(this.errorResult);
+            this.tabPage1.Controls.Add(this.errorLabel);
+            this.tabPage1.Controls.Add(this.iterResult);
+            this.tabPage1.Controls.Add(this.iterLabel);
+            this.tabPage1.Controls.Add(this.convergeResult);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.Resultados);
+            this.tabPage1.Controls.Add(this.iterValue);
+            this.tabPage1.Controls.Add(this.iter);
+            this.tabPage1.Controls.Add(this.toleValue);
+            this.tabPage1.Controls.Add(this.tolerancia);
+            this.tabPage1.Controls.Add(this.xdValue);
+            this.tabPage1.Controls.Add(this.xdLabel);
+            this.tabPage1.Controls.Add(this.xiValue);
+            this.tabPage1.Controls.Add(this.Xi);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.functionInput);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1032, 474);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Unidad_1";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // unidad2
+            // label14
             // 
-            this.unidad2.Location = new System.Drawing.Point(4, 25);
-            this.unidad2.Name = "unidad2";
-            this.unidad2.Padding = new System.Windows.Forms.Padding(3);
-            this.unidad2.Size = new System.Drawing.Size(995, 476);
-            this.unidad2.TabIndex = 1;
-            this.unidad2.Text = "Unidad_2";
-            this.unidad2.UseVisualStyleBackColor = true;
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(364, 170);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(146, 16);
+            this.label14.TabIndex = 26;
+            this.label14.Text = "MÉTODOS ABIERTOS";
             // 
-            // unidad3
+            // label13
             // 
-            this.unidad3.Location = new System.Drawing.Point(4, 25);
-            this.unidad3.Name = "unidad3";
-            this.unidad3.Size = new System.Drawing.Size(995, 476);
-            this.unidad3.TabIndex = 2;
-            this.unidad3.Text = "Unidad_3";
-            this.unidad3.UseVisualStyleBackColor = true;
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(40, 170);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(154, 16);
+            this.label13.TabIndex = 25;
+            this.label13.Text = "MÉTODOS CERRADOS";
             // 
-            // unidad4
+            // secanteBtn
             // 
-            this.unidad4.Location = new System.Drawing.Point(4, 25);
-            this.unidad4.Name = "unidad4";
-            this.unidad4.Size = new System.Drawing.Size(995, 476);
-            this.unidad4.TabIndex = 3;
-            this.unidad4.Text = "Unidad_4";
-            this.unidad4.UseVisualStyleBackColor = true;
+            this.secanteBtn.Location = new System.Drawing.Point(473, 192);
+            this.secanteBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.secanteBtn.Name = "secanteBtn";
+            this.secanteBtn.Size = new System.Drawing.Size(100, 28);
+            this.secanteBtn.TabIndex = 50;
+            this.secanteBtn.Text = "SECANTE";
+            this.secanteBtn.UseVisualStyleBackColor = true;
+            this.secanteBtn.Click += new System.EventHandler(this.secanteBtn_Click);
             // 
-            // warningLabel
+            // newtonBtn
             // 
-            this.warningLabel.Location = new System.Drawing.Point(329, 304);
-            this.warningLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.warningLabel.Name = "warningLabel";
-            this.warningLabel.Size = new System.Drawing.Size(181, 38);
-            this.warningLabel.TabIndex = 23;
+            this.newtonBtn.Location = new System.Drawing.Point(301, 192);
+            this.newtonBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.newtonBtn.Name = "newtonBtn";
+            this.newtonBtn.Size = new System.Drawing.Size(164, 28);
+            this.newtonBtn.TabIndex = 49;
+            this.newtonBtn.Text = "NEWTON-RAPHSON";
+            this.newtonBtn.UseVisualStyleBackColor = true;
+            this.newtonBtn.Click += new System.EventHandler(this.newtonBtn_Click);
+            // 
+            // reglafalsaBtn
+            // 
+            this.reglafalsaBtn.Location = new System.Drawing.Point(132, 192);
+            this.reglafalsaBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.reglafalsaBtn.Name = "reglafalsaBtn";
+            this.reglafalsaBtn.Size = new System.Drawing.Size(120, 28);
+            this.reglafalsaBtn.TabIndex = 48;
+            this.reglafalsaBtn.Text = "REGLA FALSA";
+            this.reglafalsaBtn.UseVisualStyleBackColor = true;
+            this.reglafalsaBtn.Click += new System.EventHandler(this.reglafalsaBtn_Click);
             // 
             // biseccionBtn
             // 
-            this.biseccionBtn.Location = new System.Drawing.Point(116, 304);
+            this.biseccionBtn.Location = new System.Drawing.Point(24, 192);
             this.biseccionBtn.Margin = new System.Windows.Forms.Padding(4);
             this.biseccionBtn.Name = "biseccionBtn";
-            this.biseccionBtn.Size = new System.Drawing.Size(151, 50);
-            this.biseccionBtn.TabIndex = 22;
-            this.biseccionBtn.Text = "Biseccion";
+            this.biseccionBtn.Size = new System.Drawing.Size(100, 28);
+            this.biseccionBtn.TabIndex = 47;
+            this.biseccionBtn.Text = "BISECCIÓN";
             this.biseccionBtn.UseVisualStyleBackColor = true;
+            this.biseccionBtn.Click += new System.EventHandler(this.biseccionBtn_Click);
             // 
-            // iterationLabel
+            // warningLabel
             // 
-            this.iterationLabel.Location = new System.Drawing.Point(384, 160);
-            this.iterationLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.iterationLabel.Name = "iterationLabel";
-            this.iterationLabel.Size = new System.Drawing.Size(97, 16);
-            this.iterationLabel.TabIndex = 21;
-            this.iterationLabel.Text = "Iterations";
+            this.warningLabel.AutoSize = true;
+            this.warningLabel.Location = new System.Drawing.Point(20, 120);
+            this.warningLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.warningLabel.Name = "warningLabel";
+            this.warningLabel.Size = new System.Drawing.Size(0, 16);
+            this.warningLabel.TabIndex = 46;
             // 
-            // toleranceLabel
+            // raizResult
             // 
-            this.toleranceLabel.Location = new System.Drawing.Point(76, 157);
-            this.toleranceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.toleranceLabel.Name = "toleranceLabel";
-            this.toleranceLabel.Size = new System.Drawing.Size(124, 18);
-            this.toleranceLabel.TabIndex = 20;
-            this.toleranceLabel.Text = "Tolerance";
+            this.raizResult.AutoSize = true;
+            this.raizResult.Location = new System.Drawing.Point(73, 413);
+            this.raizResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.raizResult.Name = "raizResult";
+            this.raizResult.Size = new System.Drawing.Size(0, 16);
+            this.raizResult.TabIndex = 45;
             // 
-            // xdLabel
+            // raizLabel
             // 
-            this.xdLabel.Location = new System.Drawing.Point(546, 23);
-            this.xdLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.xdLabel.Name = "xdLabel";
-            this.xdLabel.Size = new System.Drawing.Size(88, 22);
-            this.xdLabel.TabIndex = 19;
-            this.xdLabel.Text = "Xd";
+            this.raizLabel.AutoSize = true;
+            this.raizLabel.Location = new System.Drawing.Point(20, 413);
+            this.raizLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.raizLabel.Name = "raizLabel";
+            this.raizLabel.Size = new System.Drawing.Size(37, 16);
+            this.raizLabel.TabIndex = 44;
+            this.raizLabel.Text = "Raíz:";
             // 
-            // xiLabel
+            // errorResult
             // 
-            this.xiLabel.Location = new System.Drawing.Point(294, 23);
-            this.xiLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.xiLabel.Name = "xiLabel";
-            this.xiLabel.Size = new System.Drawing.Size(88, 22);
-            this.xiLabel.TabIndex = 18;
-            this.xiLabel.Text = "Xi";
+            this.errorResult.AutoSize = true;
+            this.errorResult.Location = new System.Drawing.Point(110, 380);
+            this.errorResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.errorResult.Name = "errorResult";
+            this.errorResult.Size = new System.Drawing.Size(0, 16);
+            this.errorResult.TabIndex = 43;
             // 
-            // functionLabel
+            // errorLabel
             // 
-            this.functionLabel.Location = new System.Drawing.Point(9, 23);
-            this.functionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.functionLabel.Name = "functionLabel";
-            this.functionLabel.Size = new System.Drawing.Size(93, 20);
-            this.functionLabel.TabIndex = 17;
-            this.functionLabel.Text = "Function";
+            this.errorLabel.AutoSize = true;
+            this.errorLabel.Location = new System.Drawing.Point(20, 380);
+            this.errorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.errorLabel.Name = "errorLabel";
+            this.errorLabel.Size = new System.Drawing.Size(86, 16);
+            this.errorLabel.TabIndex = 42;
+            this.errorLabel.Text = "Error relativo:";
             // 
-            // iterationValue
+            // iterResult
             // 
-            this.iterationValue.Location = new System.Drawing.Point(384, 179);
-            this.iterationValue.Margin = new System.Windows.Forms.Padding(4);
-            this.iterationValue.Name = "iterationValue";
-            this.iterationValue.Size = new System.Drawing.Size(177, 22);
-            this.iterationValue.TabIndex = 16;
+            this.iterResult.AutoSize = true;
+            this.iterResult.Location = new System.Drawing.Point(158, 363);
+            this.iterResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.iterResult.Name = "iterResult";
+            this.iterResult.Size = new System.Drawing.Size(0, 16);
+            this.iterResult.TabIndex = 41;
             // 
-            // toleranceValue
+            // iterLabel
             // 
-            this.toleranceValue.Location = new System.Drawing.Point(76, 179);
-            this.toleranceValue.Margin = new System.Windows.Forms.Padding(4);
-            this.toleranceValue.Name = "toleranceValue";
-            this.toleranceValue.Size = new System.Drawing.Size(141, 22);
-            this.toleranceValue.TabIndex = 15;
+            this.iterLabel.AutoSize = true;
+            this.iterLabel.Location = new System.Drawing.Point(20, 363);
+            this.iterLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.iterLabel.Name = "iterLabel";
+            this.iterLabel.Size = new System.Drawing.Size(128, 16);
+            this.iterLabel.TabIndex = 40;
+            this.iterLabel.Text = "Cant. de iteraciones:";
+            // 
+            // convergeResult
+            // 
+            this.convergeResult.AutoSize = true;
+            this.convergeResult.Location = new System.Drawing.Point(106, 347);
+            this.convergeResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.convergeResult.Name = "convergeResult";
+            this.convergeResult.Size = new System.Drawing.Size(0, 16);
+            this.convergeResult.TabIndex = 39;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 347);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 16);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Converge: ";
+            // 
+            // Resultados
+            // 
+            this.Resultados.AutoSize = true;
+            this.Resultados.Location = new System.Drawing.Point(20, 315);
+            this.Resultados.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Resultados.Name = "Resultados";
+            this.Resultados.Size = new System.Drawing.Size(76, 16);
+            this.Resultados.TabIndex = 37;
+            this.Resultados.Text = "Resultados";
+            // 
+            // iterValue
+            // 
+            this.iterValue.Location = new System.Drawing.Point(342, 38);
+            this.iterValue.Margin = new System.Windows.Forms.Padding(4);
+            this.iterValue.Name = "iterValue";
+            this.iterValue.Size = new System.Drawing.Size(132, 22);
+            this.iterValue.TabIndex = 36;
+            this.iterValue.Text = "100";
+            // 
+            // iter
+            // 
+            this.iter.AutoSize = true;
+            this.iter.Location = new System.Drawing.Point(225, 41);
+            this.iter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.iter.Name = "iter";
+            this.iter.Size = new System.Drawing.Size(101, 16);
+            this.iter.TabIndex = 35;
+            this.iter.Text = "Max Iteraciónes";
+            // 
+            // toleValue
+            // 
+            this.toleValue.Location = new System.Drawing.Point(342, 9);
+            this.toleValue.Margin = new System.Windows.Forms.Padding(4);
+            this.toleValue.Name = "toleValue";
+            this.toleValue.Size = new System.Drawing.Size(132, 22);
+            this.toleValue.TabIndex = 34;
+            this.toleValue.Text = "0,0001";
+            // 
+            // tolerancia
+            // 
+            this.tolerancia.AutoSize = true;
+            this.tolerancia.Location = new System.Drawing.Point(225, 13);
+            this.tolerancia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.tolerancia.Name = "tolerancia";
+            this.tolerancia.Size = new System.Drawing.Size(72, 16);
+            this.tolerancia.TabIndex = 33;
+            this.tolerancia.Text = "Tolerancia";
             // 
             // xdValue
             // 
-            this.xdValue.Location = new System.Drawing.Point(546, 49);
+            this.xdValue.Location = new System.Drawing.Point(49, 66);
             this.xdValue.Margin = new System.Windows.Forms.Padding(4);
             this.xdValue.Name = "xdValue";
-            this.xdValue.Size = new System.Drawing.Size(137, 22);
-            this.xdValue.TabIndex = 14;
+            this.xdValue.Size = new System.Drawing.Size(132, 22);
+            this.xdValue.TabIndex = 32;
+            // 
+            // xdLabel
+            // 
+            this.xdLabel.AutoSize = true;
+            this.xdLabel.Location = new System.Drawing.Point(9, 70);
+            this.xdLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.xdLabel.Name = "xdLabel";
+            this.xdLabel.Size = new System.Drawing.Size(23, 16);
+            this.xdLabel.TabIndex = 31;
+            this.xdLabel.Text = "Xd";
             // 
             // xiValue
             // 
-            this.xiValue.Location = new System.Drawing.Point(294, 49);
+            this.xiValue.Location = new System.Drawing.Point(49, 38);
             this.xiValue.Margin = new System.Windows.Forms.Padding(4);
             this.xiValue.Name = "xiValue";
-            this.xiValue.Size = new System.Drawing.Size(152, 22);
-            this.xiValue.TabIndex = 13;
+            this.xiValue.Size = new System.Drawing.Size(132, 22);
+            this.xiValue.TabIndex = 30;
+            // 
+            // Xi
+            // 
+            this.Xi.AutoSize = true;
+            this.Xi.Location = new System.Drawing.Point(9, 41);
+            this.Xi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Xi.Name = "Xi";
+            this.Xi.Size = new System.Drawing.Size(18, 16);
+            this.Xi.TabIndex = 29;
+            this.Xi.Text = "Xi";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 13);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(29, 16);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "F(x)";
             // 
             // functionInput
             // 
-            this.functionInput.Location = new System.Drawing.Point(9, 49);
+            this.functionInput.Location = new System.Drawing.Point(49, 9);
             this.functionInput.Margin = new System.Windows.Forms.Padding(4);
             this.functionInput.Name = "functionInput";
-            this.functionInput.Size = new System.Drawing.Size(163, 22);
-            this.functionInput.TabIndex = 12;
+            this.functionInput.Size = new System.Drawing.Size(132, 22);
+            this.functionInput.TabIndex = 27;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1032, 474);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Unidad_2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(1032, 474);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Unidad_3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(1032, 474);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Unidad_4";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -223,13 +399,13 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.tabControl1);
             this.HelpButton = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Analisis";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
-            this.unidad1.ResumeLayout(false);
-            this.unidad1.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -237,21 +413,35 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage unidad1;
-        private System.Windows.Forms.TabPage unidad2;
-        private System.Windows.Forms.TabPage unidad3;
-        private System.Windows.Forms.TabPage unidad4;
-        private System.Windows.Forms.Label warningLabel;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button secanteBtn;
+        private System.Windows.Forms.Button newtonBtn;
+        private System.Windows.Forms.Button reglafalsaBtn;
         private System.Windows.Forms.Button biseccionBtn;
-        private System.Windows.Forms.Label iterationLabel;
-        private System.Windows.Forms.Label toleranceLabel;
-        private System.Windows.Forms.Label xdLabel;
-        private System.Windows.Forms.Label xiLabel;
-        private System.Windows.Forms.Label functionLabel;
-        private System.Windows.Forms.TextBox iterationValue;
-        private System.Windows.Forms.TextBox toleranceValue;
+        private System.Windows.Forms.Label warningLabel;
+        private System.Windows.Forms.Label raizResult;
+        private System.Windows.Forms.Label raizLabel;
+        private System.Windows.Forms.Label errorResult;
+        private System.Windows.Forms.Label errorLabel;
+        private System.Windows.Forms.Label iterResult;
+        private System.Windows.Forms.Label iterLabel;
+        private System.Windows.Forms.Label convergeResult;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Resultados;
+        private System.Windows.Forms.TextBox iterValue;
+        private System.Windows.Forms.Label iter;
+        private System.Windows.Forms.TextBox toleValue;
+        private System.Windows.Forms.Label tolerancia;
         private System.Windows.Forms.TextBox xdValue;
+        private System.Windows.Forms.Label xdLabel;
         private System.Windows.Forms.TextBox xiValue;
+        private System.Windows.Forms.Label Xi;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox functionInput;
     }
 }
