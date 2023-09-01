@@ -242,7 +242,9 @@ namespace AnalisisNumericoo
                     {
                         double xr = (AnalizadorDeFunciones.EvaluaFx(xini2) * xini - AnalizadorDeFunciones.EvaluaFx(xini) * xini2) / divisorxr;
                         if (xr == 0)
+                        {
                             warningLabel.Text = "xr = 0. Error por división por cero!.";
+                        }   
                         else
                         {
                             double error = Math.Abs((xr - xant) / xr);

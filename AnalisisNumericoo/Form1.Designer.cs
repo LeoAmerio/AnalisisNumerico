@@ -62,7 +62,6 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-
             this.SuspendLayout();
             // 
             // tabControl1
@@ -116,7 +115,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(364, 170);
+            this.label14.Location = new System.Drawing.Point(362, 201);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(146, 16);
@@ -126,7 +125,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(40, 170);
+            this.label13.Location = new System.Drawing.Point(46, 201);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(154, 16);
@@ -135,7 +134,7 @@
             // 
             // secanteBtn
             // 
-            this.secanteBtn.Location = new System.Drawing.Point(473, 192);
+            this.secanteBtn.Location = new System.Drawing.Point(465, 223);
             this.secanteBtn.Margin = new System.Windows.Forms.Padding(4);
             this.secanteBtn.Name = "secanteBtn";
             this.secanteBtn.Size = new System.Drawing.Size(100, 28);
@@ -146,7 +145,7 @@
             // 
             // newtonBtn
             // 
-            this.newtonBtn.Location = new System.Drawing.Point(301, 192);
+            this.newtonBtn.Location = new System.Drawing.Point(293, 223);
             this.newtonBtn.Margin = new System.Windows.Forms.Padding(4);
             this.newtonBtn.Name = "newtonBtn";
             this.newtonBtn.Size = new System.Drawing.Size(164, 28);
@@ -157,7 +156,7 @@
             // 
             // reglafalsaBtn
             // 
-            this.reglafalsaBtn.Location = new System.Drawing.Point(132, 192);
+            this.reglafalsaBtn.Location = new System.Drawing.Point(124, 223);
             this.reglafalsaBtn.Margin = new System.Windows.Forms.Padding(4);
             this.reglafalsaBtn.Name = "reglafalsaBtn";
             this.reglafalsaBtn.Size = new System.Drawing.Size(120, 28);
@@ -168,7 +167,7 @@
             // 
             // biseccionBtn
             // 
-            this.biseccionBtn.Location = new System.Drawing.Point(24, 192);
+            this.biseccionBtn.Location = new System.Drawing.Point(16, 223);
             this.biseccionBtn.Margin = new System.Windows.Forms.Padding(4);
             this.biseccionBtn.Name = "biseccionBtn";
             this.biseccionBtn.Size = new System.Drawing.Size(100, 28);
@@ -189,7 +188,7 @@
             // raizResult
             // 
             this.raizResult.AutoSize = true;
-            this.raizResult.Location = new System.Drawing.Point(73, 413);
+            this.raizResult.Location = new System.Drawing.Point(565, 125);
             this.raizResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.raizResult.Name = "raizResult";
             this.raizResult.Size = new System.Drawing.Size(0, 16);
@@ -198,7 +197,7 @@
             // raizLabel
             // 
             this.raizLabel.AutoSize = true;
-            this.raizLabel.Location = new System.Drawing.Point(20, 413);
+            this.raizLabel.Location = new System.Drawing.Point(512, 125);
             this.raizLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.raizLabel.Name = "raizLabel";
             this.raizLabel.Size = new System.Drawing.Size(37, 16);
@@ -208,7 +207,7 @@
             // errorResult
             // 
             this.errorResult.AutoSize = true;
-            this.errorResult.Location = new System.Drawing.Point(110, 380);
+            this.errorResult.Location = new System.Drawing.Point(602, 92);
             this.errorResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.errorResult.Name = "errorResult";
             this.errorResult.Size = new System.Drawing.Size(0, 16);
@@ -217,7 +216,7 @@
             // errorLabel
             // 
             this.errorLabel.AutoSize = true;
-            this.errorLabel.Location = new System.Drawing.Point(20, 380);
+            this.errorLabel.Location = new System.Drawing.Point(512, 92);
             this.errorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.errorLabel.Name = "errorLabel";
             this.errorLabel.Size = new System.Drawing.Size(86, 16);
@@ -227,7 +226,7 @@
             // iterResult
             // 
             this.iterResult.AutoSize = true;
-            this.iterResult.Location = new System.Drawing.Point(158, 363);
+            this.iterResult.Location = new System.Drawing.Point(648, 75);
             this.iterResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.iterResult.Name = "iterResult";
             this.iterResult.Size = new System.Drawing.Size(0, 16);
@@ -236,7 +235,7 @@
             // iterLabel
             // 
             this.iterLabel.AutoSize = true;
-            this.iterLabel.Location = new System.Drawing.Point(20, 363);
+            this.iterLabel.Location = new System.Drawing.Point(512, 75);
             this.iterLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.iterLabel.Name = "iterLabel";
             this.iterLabel.Size = new System.Drawing.Size(128, 16);
@@ -246,7 +245,7 @@
             // convergeResult
             // 
             this.convergeResult.AutoSize = true;
-            this.convergeResult.Location = new System.Drawing.Point(106, 347);
+            this.convergeResult.Location = new System.Drawing.Point(598, 59);
             this.convergeResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.convergeResult.Name = "convergeResult";
             this.convergeResult.Size = new System.Drawing.Size(0, 16);
@@ -255,7 +254,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 347);
+            this.label2.Location = new System.Drawing.Point(512, 59);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 16);
@@ -265,12 +264,12 @@
             // Resultados
             // 
             this.Resultados.AutoSize = true;
-            this.Resultados.Location = new System.Drawing.Point(20, 315);
+            this.Resultados.Location = new System.Drawing.Point(512, 27);
             this.Resultados.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Resultados.Name = "Resultados";
-            this.Resultados.Size = new System.Drawing.Size(76, 16);
+            this.Resultados.Size = new System.Drawing.Size(79, 16);
             this.Resultados.TabIndex = 37;
-            this.Resultados.Text = "Resultados";
+            this.Resultados.Text = "Resultados:";
             // 
             // iterValue
             // 
@@ -396,7 +395,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1263, 554);
             this.Controls.Add(this.tabControl1);
             this.HelpButton = true;
             this.Margin = new System.Windows.Forms.Padding(4);
